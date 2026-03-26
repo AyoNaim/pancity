@@ -70,7 +70,7 @@ export default function KiraniMinutesPage() {
       const userPhone = session.user_data?.phone || "";
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/kirani/index.php",
+        "https://pancity.com.ng/app/api/kirani/index.php",
         {
           method: "POST",
           headers: {

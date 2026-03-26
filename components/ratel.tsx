@@ -80,7 +80,7 @@ export default function RatelDataPage() {
       const userPhone = session.user_data?.phone || "";
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/ratel/index.php",
+        "https://pancity.com.ng/app/api/ratel/index.php",
         {
           method: "POST",
           headers: {

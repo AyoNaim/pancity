@@ -50,7 +50,7 @@ export default function BuyCablePage() {
     const fetchPlans = async () => {
       try {
         const response = await fetch(
-          "https://obills.com.ng/app/api/cabletv/plans/index.php",
+          "https://pancity.com.ng/app/api/cabletv/plans/index.php",
           {
             headers: { Authorization: getHandshake() },
           }

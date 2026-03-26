@@ -41,7 +41,7 @@ export default function ExamPinsPage() {
     try {
       const token = getHandshake();
       const response = await fetch(
-        "https://obills.com.ng/app/api/exam/plans/index.php",
+        "https://pancity.com.ng/app/api/exam/plans/index.php",
         {
           method: "POST",
           headers: {

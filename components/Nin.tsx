@@ -69,7 +69,7 @@ export default function VerifyNinPage() {
       const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/nin/index.php",
+        "https://pancity.com.ng/app/api/nin/index.php",
         {
           method: "POST",
           headers: {

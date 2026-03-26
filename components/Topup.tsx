@@ -29,7 +29,7 @@ import { Label } from "@/components/ui/label";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
-const API_BASE_URL = "https://obills.com.ng/app/api/fund-wallet/index.php";
+const API_BASE_URL = "https://pancity.com.ng/app/api/fund-wallet/index.php";
 
 interface VirtualAccount {
   bankName: string;

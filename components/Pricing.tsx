@@ -101,11 +101,11 @@ export default function PricingsPage() {
       const token = getHandshake();
 
       const [dataRes, cableRes] = await Promise.all([
-        fetch("https://obills.com.ng/app/api/data/plans/index.php", {
+        fetch("https://pancity.com.ng/app/api/data/plans/index.php", {
           method: "POST",
           headers: { Authorization: token },
         }),
-        fetch("https://obills.com.ng/app/api/cabletv/plans/index.php", {
+        fetch("https://pancity.com.ng/app/api/cabletv/plans/index.php", {
           method: "POST",
           headers: { Authorization: token },
         }),

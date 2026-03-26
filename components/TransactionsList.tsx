@@ -43,7 +43,7 @@ const TransactionPage = () => {
       try {
         const token = localStorage.getItem("userToken");
         const response = await fetch(
-          "https://obills.com.ng/app/api/transactions/index.php",
+          "https://pancity.com.ng/app/api/transactions/index.php",
           {
             method: "GET",
             headers: {

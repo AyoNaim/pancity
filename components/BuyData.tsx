@@ -117,7 +117,7 @@ export default function BuyDataPage() {
       const token = `Token ${y}${m}${d}`;
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/data/plans/index.php",
+        "https://pancity.com.ng/app/api/data/plans/index.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json", Authorization: token },

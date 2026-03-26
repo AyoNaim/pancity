@@ -111,7 +111,7 @@ export default function FintechDashboard() {
       if (!phone) throw new Error("No phone found for refresh");
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/user/app-refresh/index.php",
+        "https://pancity.com.ng/app/api/user/app-refresh/index.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -165,7 +165,7 @@ export default function FintechDashboard() {
       if (!rawSession) return;
       const session = JSON.parse(rawSession);
       const response = await fetch(
-        "https://obills.com.ng/app/api/user/cashback-transfer/index.php",
+        "https://pancity.com.ng/app/api/user/cashback-transfer/index.php",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

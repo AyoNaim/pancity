@@ -99,7 +99,7 @@ export default function BuyAirtimePage() {
 
       // 4. Send Request as JSON
       const response = await fetch(
-        "https://obills.com.ng/app/api/airtime/index.php",
+        "https://pancity.com.ng/app/api/airtime/index.php",
         {
           method: "POST",
           headers: {

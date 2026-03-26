@@ -58,7 +58,7 @@ export default function SupportPage() {
 
     try {
       const response = await fetch(
-        "https://obills.com.ng/app/api/issues/index.php",
+        "https://pancity.com.ng/app/api/issues/index.php",
         {
           method: "POST",
           headers: {

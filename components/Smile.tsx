@@ -88,7 +88,7 @@ const SmileService = () => {
       return alert("Please enter an amount.");
 
     setLoading(true);
-    const endpoint = "https://obills.com.ng/app/api/smile/index.php";
+    const endpoint = "https://pancity.com.ng/app/api/smile/index.php";
 
     const payload = {
       token: userToken,
