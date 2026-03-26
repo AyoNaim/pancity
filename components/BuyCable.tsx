@@ -96,7 +96,7 @@ export default function BuyCablePage() {
     setMessage(null);
     try {
       const response = await fetch(
-        "https://obills.com.ng/app/api/cabletv/verify/index.php",
+        "https://pancity.com.ng/app/api/cabletv/verify/index.php",
         {
           method: "POST",
           headers: {
@@ -158,7 +158,7 @@ export default function BuyCablePage() {
       const session = JSON.parse(raw);
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/cabletv/index.php",
+        "https://pancity.com.ng/app/api/cabletv/index.php",
         {
           method: "POST",
           headers: {

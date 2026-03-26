@@ -544,7 +544,7 @@ export default function FintechDashboard() {
             } catch (e) {}
             window.open(
               `https://wa.me/2347081671426?text=${encodeURIComponent(
-                "Hello, I am using the Obills App. I would like to suggest a new service: "
+                "Hello, I am using the Pancity App. I would like to suggest a new service: "
               )}`,
               "_blank"
             );
@@ -577,7 +577,7 @@ export default function FintechDashboard() {
             const userName = userData.displayName || "User";
             window.open(
               `https://wa.me/2347081671426?text=${encodeURIComponent(
-                `Hello Admin, I am ${userName}. I need assistance with the Obills App.`
+                `Hello Admin, I am ${userName}. I need assistance with the Pancity App.`
               )}`,
               "_blank"
             );

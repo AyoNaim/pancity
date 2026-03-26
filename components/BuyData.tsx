@@ -182,7 +182,7 @@ export default function BuyDataPage() {
       };
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/data/index.php",
+        "https://pancity.com.ng/app/api/data/index.php",
         {
           method: "POST",
           headers: {

@@ -52,7 +52,7 @@ export default function VerifyBvnPage() {
       const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/bvn/index.php",
+        "https://pancity.com.ng/app/api/bvn/index.php",
         {
           method: "POST",
           headers: {

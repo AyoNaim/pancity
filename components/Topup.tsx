@@ -122,7 +122,7 @@ export default function FundAccountPage() {
 
     try {
       const response = await fetch(
-        `https://obills.com.ng/app/debug.php?token=${encodeURIComponent(
+        `https://pancity.com.ng/app/debug.php?token=${encodeURIComponent(
           token
         )}`,
         {
@@ -163,7 +163,7 @@ export default function FundAccountPage() {
       await Haptics.impact({ style: ImpactStyle.Medium });
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/fund-wallet/manual/index.php",
+        "https://pancity.com.ng/app/api/fund-wallet/manual/index.php",
         {
           method: "POST",
           headers: {

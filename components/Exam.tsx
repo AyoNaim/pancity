@@ -103,7 +103,7 @@ export default function ExamPinsPage() {
       const userPhone = session.user_data?.phone || session.phone || "";
 
       const response = await fetch(
-        "https://obills.com.ng/app/api/electricity/index.php", // Assuming shared logic or update to /exam/index.php
+        "https://pancity.com.ng/app/api/electricity/index.php", // Assuming shared logic or update to /exam/index.php
         {
           method: "POST",
           headers: {

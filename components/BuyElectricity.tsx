@@ -157,7 +157,7 @@ export default function BuyElectricityPage() {
 
     try {
       const response = await fetch(
-        "https://obills.com.ng/app/api/electricity/index.php",
+        "https://pancity.com.ng/app/api/electricity/index.php",
         {
           method: "POST",
           headers: {
