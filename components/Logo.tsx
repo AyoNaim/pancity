@@ -1,3 +1,9 @@
-export default function Logo() {
-  return <img src={"./obills.svg"} alt="logo" />;
-}
+// plugins: {
+//   SplashScreen: {
+//     launchShowDuration: 2000,
+//     launchAutoHide: true,
+//     backgroundColor: "#ffffffff",
+//     androidScaleType: "CENTER_CROP",
+//     showSpinner: false,
+//   },
+// },

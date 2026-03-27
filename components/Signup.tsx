@@ -194,7 +194,7 @@ export default function PersonalDetailsScreen() {
         </div>
 
         <div className="mb-6">
-          <svg
+          {/* <svg
             width="50"
             height="50"
             viewBox="0 0 50 50"
@@ -214,7 +214,8 @@ export default function PersonalDetailsScreen() {
               strokeWidth="4"
               strokeLinecap="round"
             />
-          </svg>
+          </svg> */}
+          <img src={"./pancity_logo.png"} alt="logo" width={90} height={90} />
         </div>
 
         <h1 className="text-[32px] font-bold tracking-tight mb-3">

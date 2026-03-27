@@ -1,4 +1,4 @@
-package com.obills.app;
+package com.pancity.app;
 
 import android.os.Bundle;
 import android.graphics.Color;
