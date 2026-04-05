@@ -163,9 +163,9 @@ export default function PersonalDetailsScreen() {
           },
         };
 
-        localStorage.setItem("user_token", storageData.token);
+        localStorage.setItem("userToken", storageData.token);
         localStorage.setItem(
-          "user_data",
+          "user_session",
           JSON.stringify(storageData.user_data)
         );
 
@@ -215,7 +215,7 @@ export default function PersonalDetailsScreen() {
               strokeLinecap="round"
             />
           </svg> */}
-          <img src={"./pancity_logo.png"} alt="logo" width={90} height={90} />
+          <img src={"./pancity_bg.png"} alt="logo" width={130} height={130} />
         </div>
 
         <h1 className="text-[32px] font-bold tracking-tight mb-3">
